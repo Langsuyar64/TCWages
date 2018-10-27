@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{127AFA90-8A74-4B4E-9E79-A6A1EA64FD11}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TCWages.API PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
