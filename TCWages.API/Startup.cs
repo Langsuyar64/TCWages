@@ -53,7 +53,7 @@ namespace TCWages.API {
             }
 
             //app.UseHttpsRedirection();
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyOrigin());
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
             app.UseAuthentication();
             app.UseMvc ();
         }
