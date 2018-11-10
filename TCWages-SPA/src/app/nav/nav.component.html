@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
   <div class="container">
-      <a class="navbar-brand" href="#">TC Wages Test App</a>
+      <a class="navbar-brand" [routerLink]="['/home']">TC Wages Test App</a>
       <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Contracts </a>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/members']">Contracts </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Employees</a>
+        <li class="nav-item" routerLinkActive="router-link-active">
+          <a class="nav-link" [routerLink]="['/lists']">Employees</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Messages</a>
+        <li class="nav-item" routerLinkActive="router-link-active">
+          <a class="nav-link disabled" [routerLink]="['/messages']">Messages</a>
         </li>
       </ul>
 
