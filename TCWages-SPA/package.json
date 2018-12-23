@@ -30,6 +30,7 @@
     "ngx-gallery": "^5.9.1",
     "popper": "^1.0.1",
     "popper.js": "^1.14.6",
+    "time-ago-pipe": "^1.3.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

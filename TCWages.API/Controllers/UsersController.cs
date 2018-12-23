@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TCWages.API.Data;
 using TCWages.API.Dtos;
+using TCWages.API.Helpers;
 
 namespace TCWages.API.Controllers
 {
+    [ServiceFilter(typeof(LogUserActivity)) ]
     [Authorize]
     [Route("api/[controller]")]
     [Produces("application/json")]
