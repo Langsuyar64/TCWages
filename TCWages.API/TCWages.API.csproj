@@ -9,12 +9,13 @@
     <Folder Include="Data\"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="7.0.1"/>
+    <PackageReference Include="AutoMapper" Version="8.0.0"/>
     <PackageReference Include="Microsoft.AspNetCore.App"/>
-    <PackageReference Include="bootstrap" Version="4.1.3"/>
+    <PackageReference Include="bootstrap" Version="4.2.1"/>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1"/>
     <PackageReference Include="CloudinaryDotNet" Version="1.5.0"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="TCWages.API.csproj"/>
